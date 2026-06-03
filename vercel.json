@@ -1,7 +1,9 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
-      "source": "/((?!_next|api|static|public|favicon.ico).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
